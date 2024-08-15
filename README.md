@@ -21,3 +21,9 @@ See hours for two months ago, formatted by `jq`:
 ```bash
 $ ruby harvest/detailed_harvest_summary.rb --months-ago 2 --client ClientCorp | jq
 ```
+
+See count of hours across all clients for current week:
+
+```bash
+$ ruby harvest/harvest_hours.rb
+```
